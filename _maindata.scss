@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+$ancho: 1200px;
+$alto: 100px;
+
+header {
+    background-color: #ffe600;
+}
+
+
+.container {
+
+    margin: 0 auto;
+    width: $ancho;
+    height: $alto;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-rows: 1fr 1fr;
+
+    padding: 8px 0;
+    gap: 10px;
+}
+
+a {
+        text-decoration: none;
+}
